@@ -1,0 +1,462 @@
+<book title="JPJ : How to Survive" cover="gbook:covers/default" fontSize="0.65">
+
+    <include ref="gbook:xml/standard.xml" />
+
+    <chapter>
+        <section>
+            <space height="10%" />
+            
+            <p color="#606060">Thanks for downloading my modpack!.</p>
+            <space height="5%" />
+            <p color="#606060">This pack was created in order to have a difficult survival experience where each fight must be planned because it will often be fatal. Strategize with your teammates to triumph over dungeons and dimensions, in a world that doesn't get simpler over time!</p>
+            <space height="5%" />
+            <p color="#606060">Please rebort bugs and leave comments on the modpack page.</p>
+
+            <section-break />
+
+            <space height="38" />
+            <p space="0" align="center" scale="2">Welcome</p>
+            <p space="0" align="center" scale="2">to</p>
+            <p space="0" align="center" scale="2">Juke's Painfull Journey</p>
+            <p space="0" align="center" scale="2">Guidebook</p>
+            <p space="6" align="center" scale="2">__________</p>
+            <p align="center" scale="1.5">by JukeBoy_</p>
+        </section>
+        <section>
+            <page_title>
+                <title>Index</title>
+            </page_title>
+
+            <link ref="welcome">Welcome Traveler</link>
+            <link ref="firstadvice">First Advice</link>
+            <space height="8" />
+            
+            <link ref="body">A new Body ?</link>
+            <link indent="8" ref="body:food">Food</link>
+            <link indent="8" ref="body:injury">Injury</link>
+            <link indent="8" ref="body:thirst">Thirst</link>
+            <link indent="8" ref="body:temperature">Body Temperature</link>
+            <link indent="8" ref="body:class">Your new class !</link>
+            <space height="8" />
+
+            <link ref="survive">Survive your First Days</link>
+            <link indent="8" ref="survive:advices">Field advices</link>
+            <link indent="8" ref="survive:skills">Skills</link>
+            <link indent="8" ref="survive:combat">Combat</link>
+            <link indent="8" ref="survive:weapons">Weapons, dear Weapons</link>
+            <link indent="8" ref="survive:enchant">Enchanté !</link>
+            <link indent="8" ref="survive:magic">Magic</link>
+            <space height="8" />
+
+            <link ref="companions">Counting on your Companions</link>
+            <link indent="8" ref="companions:groups">Groups</link>
+            <link indent="8" ref="companions:blocklings">Blocklings</link>
+            <link indent="8" ref="companions:pets">Inventory Pets</link>
+            <space height="8" />
+
+            <link ref="simplify">Simplify your daily routine</link>
+            <link indent="8" ref="simplify:exploration">Exploration</link>
+            <link indent="8" ref="simplify:automation">Automation and Storage</link>
+            <link indent="8" ref="simplify:transportation">Transportation</link>
+            <space height="8" />
+
+            <link ref="conclusion">Conclusion and Farewell</link>
+        </section>
+    </chapter>
+    <chapter id="welcome">
+        <section>
+            <page_title>
+                <title>Welcome Traveler</title>
+            </page_title>
+            <p>
+                Welcome young disciple! What do you mean "where am I"? "What is this book?" It's a little rude of you. But let's move on. If you are here, it is because you died in your previous life, and that you found yourself here, in this world. Don't ask yourself who I am, an adventurer or a magician for sure, but that doesn't matter, I'm only here to increase your life expectancy. Life here is .. how to say it .. complicated.
+            </p>
+            <space height="10" />
+            <p>
+                This land is hostile and everyone wants you dead. Yes yes, if you are not happy, nothing will change, you had to be more careful when you played Feed The Beast with so much nonchalance. You are now stuck here, and you will have to live with it! Even after you die in this mode, you will remain stuck in this world. What the hell? And no, my boy, it's worse, much worse!
+            </p>
+            <space height="10" />
+            <p>
+                So I'm going to explain 2 or 3 things to you so that you can survive a few hours, otherwise it won't be easy.
+            </p>
+        </section>
+    </chapter>
+    <chapter id="firstadvice">
+        <section>
+            <title>First Advice</title>
+            <space height="10" />
+            <p>
+                Bind all your keyboards keys ! I know I know, we've seen better role play, but this is really the most important advice I have to give you. Make sure you can open the most important menus, like the skills menu, otherwise you will quickly hit a wall. And by a wall I mean a Dragon or a Minotaur too strong for you ah ah ah!
+            </p>
+        </section>
+    </chapter>
+    <chapter id="body">
+        <section>
+            <page_title>
+                <title>A New Body ?</title>
+            </page_title>
+            <p space="8">
+                Oh  oh, do you think your body has changed? Indeed and how to say it .. It will be harder for you. I know, like a lot of people before you, you've been used to running around without paying attention to anything. But there, it gets worse ...
+            </p>
+        </section>
+
+        <section id="food">
+            <title>Food</title>
+            <space height="10" />
+            <p>
+                Watch your diet! Although this world is filled with a lot of new foods, you are going to have to be careful about what you eat. And also: food expires.
+            </p>
+            <space height="10" />
+            <image src="gbook:food" tw="160" th="70"/>
+        </section>
+        <section id="injury">
+            <title>Injury</title>
+            <space height="10" />
+            <p>
+                You must be wondering what the hell is that figure on the lower right? It is about your state of health. Now every part of your body has to be protected, no more going for a walk without pants. Also, receiving too much damage in your chest or your head will simply cause your death.
+            </p>
+            <p>
+                Some debuffs may apply when your limbs get damaged. Imagine, your feet get damaged, you will get a constant slowness debuff, or when your head gets hit severe enough, blindness and/or nausea will apply for a short time. All these debuffs can be suppressed few minutes by using <stack item="firstaid:morphine" meta="0" count="1" />.
+            </p>
+            <space height="10" />
+            <p>
+                To heal yourself, you will have to have <stack item="firstaid:bandage" meta="0" count="1" /> or <stack item="firstaid:plaster" meta="0" count="1" />, do not forget to always have them on you. In addition, the treatment is not instantaneous: be careful to be in a secure area!
+            </p>
+            <space height="10" />
+            <image src="gbook:heal" tw="160" th="79"/>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/first-aid">More info...</link>
+            </p>
+        </section>
+        <section id="thirst">
+            <title>Thirst</title>
+            <space height="10" />
+            <p>
+                Notice that you need to drink, you can be thirsty ! It's similar to hunger, in that it will drop from moving around a lot. You also cannot sprint if your thirst is too low, and you will die of dehydration.
+            </p>
+            <space height="10" />
+            <image src="gbook:thirst-bar" tw="160" th="58"/>
+            <space height="10" />
+            <p>
+                The easiest way to restore thirst is by drinking straight from a water source. This can be done by sneaking and right clicking on a water block.
+            </p>
+            <p>
+                The <stack item="toughasnails:canteen" meta="0" count="1" /> is a basic item for restoring thirst. Glass bottles can also be used to collect water, however, water collected with the canteen/glass bottles will be impure, and will have a very high chance of giving the Thirst status effect. (The Thirst status effect isn't lethal, but it is something you want to try to prevent. When drinking impure water from a canteen or bottle, you have a chance of receiving the Thirst status effect.) To prevent this, you must purify the water with a <stack item="toughasnails:charcoal_filter" meta="0" count="1" />, or boil it in a furnace.
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://github.com/Glitchfiend/ToughAsNails/wiki">More info...</link>
+            </p>
+        </section>
+        <section id="temperature">
+            <title>Body Temperature</title>
+            <space height="10" />
+            <p>
+                Your body temperature is displayed by the orb between health and hunger. The color shifts from blue, to gray, to orange, depending on the temperature, and an up/down arrow animation will appear whenever the temperature changes. At the far ends of the temperature scale, the icon will change to a snowflake/flame, letting you know that you are close to hypothermia/hyperthermia.
+            </p>
+            <space height="10" />
+            <image src="gbook:body-temperature" tw="119" th="91"/>
+            <space height="10" />
+            <p>
+                There are a lot of ways to manage your body temperature, but the easiest is the <stack item="toughasnails:campfire" meta="0" count="1" />, I put one in your inventory, don't thank me. For cooling off, swimming in water is a great, easy way to keep cool.
+            </p>
+            <p>
+                Later, you will have access to potions and coils, to stay at a good temperature throughout your day, regardless of the biome you are in! Since you are not too used to this new world, I gave you a **thermometer**, it will allow me to know a little more about your environment. Oh and an important point, the Nether is Hell, anticipate that it will surely be a little hot there ah ah!
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://github.com/Glitchfiend/ToughAsNails/wiki">More info...</link>
+            </p>
+        </section>
+        <section id="class">
+            <title>Your new class !</title>
+            <space height="10" />
+            <p>
+                If you are reading this book, then you have already selected your class when you get here. Are you a Hunter ? A Mage ? A Warrior ? For now, this has no effect, but by fighting monsters you will level up, and your statistics will increase according to your class. Open your class menu to see what's going on there and hurry up to hunt, lazy! But still be careful, the surroundings are rather ... Hostile. Player stats influence many different things, such as damage, health, attack speed, movement speed, mana, health regeneration, criticals, and much more.
+            </p>
+            <space height="10" />
+            <image src="gbook:class" tw="160" th="96"/>
+        </section>
+    </chapter>
+    <chapter id="survive">
+        <section>
+            <page_title>
+                <title>Survive your firsts days</title>
+            </page_title>
+            <p>
+                In this world, what matters most is brute strength: the weak will die quickly while the strong will continue to grow and gain strength! It's up to you to take the right start to make it through the first few days.
+            </p>
+        </section>
+        <section id="advices">
+            <title>Field Advices</title>
+            <space height="10" />
+            <p>
+                The first thing you must have seen when you arrived are all these towers, they are everywhere! Know that each of them is called <span bold="true">Battle Tower</span> and that they are full of treasures. However, with your current level, I advise you to keep your distance: they are filled with monsters and it is not with these 4 bandages that you will be able to pass this test, and even less defeat the <span bold="true">Golem</span> that is located up there.
+            </p>
+            <space height="10" />
+            <p>
+                You may be wondering what is this <span bold="true">Area Level</span> on your map. Know that in this world, monsters have levels, but so do areas! The more time you spend in an area, the further you move away from the Spawn, the more monsters you kill, the more difficult the level of the area will be: there will be more monsters, and more difficult.
+            </p>
+            <space height="10" />
+            <p>
+                In addition, if you are walking in a group, the overall level of the area will be the average of all players. So I advise you not to hang out too much with newbies and junk hunters, you risk leading them to certain death. Unless that's your goal from the start ...
+            </p>
+            <space height="10" />
+            <p>
+                There are a lot of unknown monsters and peoples belonging to unknown civilizations: be careful when exploring caves or meadows, death lurks every moment.
+            </p>
+            <space height="10" />
+            <p>
+                As you have probably noticed, the night is dark and the caves even darker. You would be well inspired to always explore with a torch in your hand. Be careful, if you place them, they will go out after a while! Take care to illuminate the surroundings with other light sources than torches.
+            </p>
+            <space height="10" />
+            <p>
+                There are plenty of underground dungeons out there just waiting for you, but be careful if you stumble upon them by accident, again it could cost your life.
+            </p>
+        </section>
+        <section id="skills">
+            <title>Skills</title>
+            <space height="10" />
+            <p>
+                If you come to read this book only after starting your adventure, you must have noticed that you did not have access to all the tools. This is normal, I don't know where you are from, but here it seems normal that not every person can be an experienced miner or lumberjack in 10 minutes. Your skills are in your inventory, look at the new side menu. They are all at level 1 for now: progress at your own pace and unlock new tools.
+            </p>
+            <space height="10" />
+            <image src="gbook:skills-icons" tw="160" th="110"/>
+            <space height="10" />
+            <image src="gbook:skills" tw="160" th="130"/>
+        </section>
+        <section id="combat">
+            <title>Combat</title>
+            <space height="10" />
+            <p>
+                The monsters all have a different level, but also random equipment. Don't tackle too big groups or too big pieces too quickly, otherwise you won't last long.
+            </p>
+            <space height="10" />
+            <p>
+                I know there were zombies where you came from. Here they are not quite so ... Friendly. They travel in groups, can spot you by the smell of your blood or the sound of your footsteps. Be careful not to get overwhelmed at nightfall.
+            </p>
+            <space height="10" />
+            <p>
+                But no, everything is not necessarily more complicated or more annoying for you. What? Would you like proof? So here it is: the dodges! The fighters are perilous, and the timings tight. This is why you can dodge: you just have to <span bold="true">Press Twice in one direction to dodge</span>, easy right?
+            </p>
+        </section>
+        <section id="weapons">
+            <title>Weapons, dear Weapons</title>
+            <space height="10" />
+            <p>
+                Weapons, armor, and tools all have different rarities and stats. When you get them, read its characteristics, the world is harsh, you can only rely on your weapons.
+            </p>
+            <space height="10" />
+            <image src="gbook:item-stats" tw="160" th="146"/>
+            <space height="10" />
+            <p>
+                At the start of the adventure, your equipment will accumulate, but you will not necessarily want to settle where you are. I can only advise you to craft a <stack item="travelersbackpack:travelers_backpack" meta="0" count="1" /> in order to transport all your items.
+            </p>
+            <space height="10" />
+            <recipe type="crafting">
+                <recipe.result>
+                    <stack item="travelersbackpack:travelers_backpack_standard"/>
+                </recipe.result>
+            </recipe>
+            <space height="10" />
+            <p>
+                Look at this <stack item="toolbelt:belt" meta="0" count="1" /> that I made for you: it will be useful for quickly exchanging various of your equipment. It's not really useful, it's not really pretty, but it has potential, don't you think? And at worst, she shows your equipment to other players, not bad to show off from time to time
+            </p>
+            <space height="10" />
+            <p>
+                This world is full of treasures, weapons and armor. However, before you can access unique and never-before-seen weapons, I recommend upgrading your base weapons. The "vanilla" weapons will be your firsts friends. I've put a special <stack item="tetra:workbench" meta="0" count="1" /> in your inventory for you, take a look when you're in a safe place.
+                <br />
+                It is possible to improve each part of your weapon, in order to make it more powerful, faster, as it suits you!
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/tetra">More info...</link>
+            </p>
+        </section>
+        <section id="enchant">
+            <title>Enchanté !</title>
+            <space height="10" />
+            <p>
+                Enchanting! What better way to ramp up? There are a lot of new enchantments and I'm willing to bet you'll like them. Find out before or throw yourself directly into endless enchantment sessions: the description of the effects is marked.
+            </p>
+            <space height="10" />
+            <image src="gbook:skills-icons" tw="160" th="110"/>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/so-many-enchantments">More info...</link>
+            </p>
+            <space height="10" />
+            <p>
+                There is also a rare and coveted enchantment, I don't know if this is true, but it would make your gear ALIVE! Using it, he would progress along with you, each battle making him more powerful. I hope you find this story useful.
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/living-enchantment">More info...</link>
+            </p>
+            <space height="10" />
+            <p>
+                To avoid all these hordes of monsters, there is another unique enchantment: "Wall-Jump". It allows you to hang on the walls but also to jump from one to the other and even to hang on the edges. This is just advice, but try to get it quickly, as any fall is often fatal.
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/wall-jump">More info...</link>
+            </p>
+            <space height="10" />
+            <p>
+                And, if you're tired of playing Merlin the Enchanter or want to collect a rare enchantment, you can always disenchant them! It's complicated, but it's worth the effort. You just should use an <stack item="disenchanter:disenchantmenttable" meta="0" count="1" />.
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/the-disenchanter-mod">More info...</link>
+            </p>
+            <space height="10" />
+            <image src="gbook:skills" tw="160" th="130"/>
+        </section>
+        <section id="magic">
+            <title>Magic</title>
+            <space height="10" />
+            <p>
+                This world is full of magic, and you too will be able to learn magic, which will be very useful to you to keep you away from all your enemies, but also to create favorable conditions for you and your allies! I left you this <span bold="true">Learning Book</span>, read it well, it will be useful if you wish to undertake the long journey of the magician.
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://github.com/Electroblob77/Wizardry/wiki">More info...</link>
+            </p>
+            <space height="10" />
+            <p>
+                I have also heard of darker magic, used by some inhabitants of this world. At first I would get away with it, it's way too early to confront you, or even try to learn anything about Thaumcraft.
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/thaumcraft">More info...</link>
+            </p>
+        </section>
+    </chapter>
+    <chapter id="companions">
+        <section>
+            <page_title>
+                <title>Counting on your Companions</title>
+            </page_title>
+            <p>
+                Your trip will not be alone! During your trip you will meet a lot of potential companions.
+            </p>
+        </section>
+        <section id="groups">
+            <title>Groups</title>
+            <space height="10" />
+            <p>
+                You will have the possibility to create a team and add other players to it. Thus, the friendly-fire will be deactivated and you will have access to the health status of your allies. To do nothing more simple, just press the letter "P" at the top right of your inventory, above the crafting box.
+            </p>
+            <space height="10" />
+            <image src="gbook:groups" tw="160" th="107"/>
+        </section>
+        <section id="blocklings">
+            <title>Blocklings</title>
+            <space height="10" />
+            <p>
+                You don't want to ally yourself with other players or nobody wants to ally with you? Don't worry, this world is inhabited by <span bold="true">Blocklings</span>, little cubes that will be happy to join you! Blocklings love flowers, so if you find one you can tame them using flowers just like you a wolf with bones.
+            </p>
+            <space height="10" />
+            <image src="gbook:blockling" tw="160" th="209"/>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/blocklings">More info...</link>
+            </p>
+        </section>
+        <section id="pets">
+            <title>Inventory Pets</title>
+            <space height="10" />
+            <p>There are also pocket companions that will never leave your inventory. They are shy but provide unique effects that will really boost your progress! Do not take damage in the tomb, have wool or gold for free, teleport once instead of dying ... only positive effects! Find them all in dungeons !</p>
+            <space height="10" />
+            <image src="gbook:inventory-pet" tw="160" th="59"/>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/inventory-pets">More info...</link>
+            </p>
+        </section>
+    </chapter>
+    <chapter id="simplify">
+        <section>
+            <page_title>
+                <title>Simplify your daily routine</title>
+            </page_title>
+            <p>
+                If you've managed to read this far, I guess your adventure is going well. But you have to ask yourself "When am I going to be able to settle down and make my life?" If so, listen carefully to these few tips, the rest, I think you can find out on your own.
+            </p>
+        </section>
+        <section id="exploration">
+            <title>Exploration</title>
+            <space height="10" />
+            <p>
+                During your trip, you may come across a number of structures and villages. In these places you can often find  <stack item="waystones:waystone" meta="0" count="1" />. These mysterious pillars will allow you to teleport from one to the other once discovered ! It will cost you a bit of experience, but it is the price to pay to be able to cover great distances in such a short time.
+            </p>
+            <space height="10" />
+            <image src="gbook:waystones" tw="160" th="84"/>
+        </section>
+        <section id="automation">
+            <title>Automation and storage</title>
+            <space height="10" />
+            <p>
+                For storage, I can only recommend the <stack item="ironchest:iron_chest" meta="0" count="1" />, <stack item="storagedrawers:basicdrawers" meta="0" count="1" /> and their upgrades. Each in their own way, they will help you store more items, and therefore be better organized for your next expeditions. If you need something more exotic, which allows you to access different objects from a distance, I advise you to look for the <stack item="minecraft:ender_chest" meta="0" count="1" /> and the new <stack item="enderstorage:ender_storage" meta="0" count="1" /> and <stack item="enderstorage:ender_pouch" meta="0" count="1" />.
+            </p>
+            <space height="10" />
+            <image src="gbook:enderchest" tw="160" th="133"/>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/iron-chests">Iron chest : More info...</link>
+            </p>
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8">Ender Storage : More info...</link>
+            </p>
+            <space height="10" />
+            <p>
+                As far as automation goes, this world is not very advanced .. I know you used to use great jetpacks and other lasers ... But this time, you are going to have to settle for "Immersive Engineering" and "Extra utilities". I'm not worried about you, if you want to make some machines, you should get away with it!
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/immersive-engineering">Immersive Engineering : More info...</link>
+            </p>
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/extra-utilities">Extra Utilities : More info...</link>
+            </p>
+        </section>
+        <section id="transportation">
+            <title>Transportation</title>
+            <space height="10" />
+            <p>
+                As you have seen, this world has a fairly varied flora and fauna. I already know that you are going to want to breed and other barbaric machinery, it is a sure source of food, we will admit. If you want to transport mobs, nothing could be easier! <span bold="true">Shift + Right-Click</span> on any Tile Entity or mob to lift and carry, then Right-Click to place. Be careful, this only works for friendly mobs.
+            </p>
+            <space height="10" />
+            <p>
+                If you want to do the same with hostile mobs, I can only recommend dark magic. It doesn't seem very warm, but you'll see, we get a taste of stealing souls. The first step will be to create a <stack item="soulshardsrespawn:soul_shard" meta="0" count="1" />.
+            </p>
+            <space height="10" />
+            <p>
+                The first kill you get with a Shard binds that shard to the killed entity. Shards must be on your hotbar or in your offhand. To efficiently gain souls, you should look into getting the Vile Sword, which adds another soul per kill, or the Soul Stealer enchantment, which adds an additional soul per kill per level.
+            </p>
+            <space height="10" />
+            <p>
+                Once you begin progressing through the tiers, you should craft a <stack item="soulshardsrespawn:soul_cage" meta="0" count="1" />. A Soul Cage will let you insert your Soul Shard and will begin spawning the bound entity indefinitely.
+            </p>
+            <space height="10" />
+            <p>
+                <link href="https://www.curseforge.com/minecraft/mc-mods/soul-shards-respawn">More info...</link>
+            </p>
+        </section>
+    </chapter>
+    <chapter id="conclusion">
+        <section>
+            <page_title>
+                <title>Conclusion and farewell</title>
+            </page_title>
+            <p>
+                I don't have much time to finish this book, but I hope it will guide you to start your adventure! Take care of your equipment and your comrades, and in a while nothing will be able to stop you. Magic is essential, but your life even more so, find the right balance and try to flourish in this dark world. And if ever this world is not enough for you, know that there are other worlds and dimensions waiting for you! <span bold="true">The Aether, the Twillight Forest, the BetweenLands</span> and more are waiting for you.
+            </p>
+            <space height="10" />
+            <p>
+                Have a good trip, young disciple, I hope that fate will be favorable to you!
+            </p>
+        </section>
+    </chapter>
+</book>
