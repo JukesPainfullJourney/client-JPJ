@@ -265,12 +265,6 @@
             </p>
             <space height="10" />
             <p>
-                This world is full of treasures, weapons and armor. However, before you can access unique and never-before-seen weapons, I recommend upgrading your base weapons. The "vanilla" weapons will be your firsts friends. I've put a special <stack item="tetra:workbench" meta="0" count="1" /> in your inventory for you, take a look when you're in a safe place.
-                <br />
-                It is possible to improve each part of your weapon, in order to make it more powerful, faster, as it suits you!
-            </p>
-            <space height="10" />
-            <p>
                 <link href="https://www.curseforge.com/minecraft/mc-mods/tetra">More info...</link>
             </p>
         </section>

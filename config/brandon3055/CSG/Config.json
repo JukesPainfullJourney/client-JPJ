@@ -1,20 +1,20 @@
 {
   "inventory": {
-    "0:35": "tetra:workbench",
-    "0:3": "toughasnails:purified_water_bottle",
-    "0:0": "gbook:guidebook,1,0,{Book:\"gbook:jukespainfulljourney.xml\"}",
-    "0:18": "toughasnails:campfire",
-    "0:5": "vanillafoodpantry:dough_ball,8,7,{Rot:{start:1680L,time:168000L}}",
     "0:4": "minecraft:potion,1,0,{Potion:\"minecraft:night_vision\"}",
-    "0:7": "firstaid:plaster,3",
-    "0:8": "toughasnails:thermometer",
-    "0:16": "minecraft:leather_chestplate,1,0,{ArmorPoints:1.4435223083178093d,Type:\"chestplate\",HideFlags:6,display:{Name:\"§fBoring Wrap\"},Level:1,TagLevel:1,RARITY:1,AttributeModifiers:[{UUIDMost:-9105453666818375173L,UUIDLeast:-8417298764003642968L,Amount:1.4435223083178093d,Slot:\"chest\",AttributeName:\"generic.armor\",Operation:0,Name:\"armor\"}]}",
-    "0:1": "crude_start:crudeaxe",
-    "0:2": "toughasnails:purified_water_bottle",
-    "0:15": "toughasnails:wool_helmet,1,0,{ArmorPoints:0.5409767904538714d,Type:\"helmet\",dexterity_rarity:1,HideFlags:6,display:{Name:\"§fNimble Cap\"},DEXTERITY:1b,Level:1,dexterity_amount:3.0d,TagLevel:1,RARITY:1,AttributeModifiers:[{UUIDMost:-9105453666818375173L,UUIDLeast:-8417298764003642968L,Amount:0.5409767904538714d,Slot:\"head\",AttributeName:\"generic.armor\",Operation:0,Name:\"armor\"}]}",
     "0:9": "toughasnails:charcoal_filter",
-    "0:17": "toolbelt:belt,1,0,{}",
+    "0:5": "vanillafoodpantry:dough_ball,8,7,{Rot:{start:1680L,time:168000L}}",
+    "0:35": "tetra:workbench",
+    "0:16": "minecraft:leather_chestplate,1,0,{ArmorPoints:1.4435223083178093d,Type:\"chestplate\",HideFlags:6,display:{Name:\"§fBoring Wrap\"},Level:1,TagLevel:1,RARITY:1,AttributeModifiers:[{UUIDMost:-9105453666818375173L,UUIDLeast:-8417298764003642968L,Amount:1.4435223083178093d,Slot:\"chest\",AttributeName:\"generic.armor\",Operation:0,Name:\"armor\"}]}",
+    "0:0": "gbook:guidebook,1,0,{Book:\"gbook:jukespainfulljourney.xml\"}",
+    "0:8": "toughasnails:thermometer",
+    "0:7": "firstaid:plaster,3",
+    "0:1": "crude_start:crudeaxe",
+    "0:18": "toughasnails:campfire",
     "0:27": "ebwizardry:wizard_handbook",
-    "0:6": "firstaid:bandage"
+    "0:6": "firstaid:bandage",
+    "0:2": "toughasnails:purified_water_bottle",
+    "0:17": "toolbelt:belt,1,0,{}",
+    "0:15": "toughasnails:wool_helmet,1,0,{ArmorPoints:0.5409767904538714d,Type:\"helmet\",dexterity_rarity:1,HideFlags:6,display:{Name:\"§fNimble Cap\"},DEXTERITY:1b,Level:1,dexterity_amount:3.0d,TagLevel:1,RARITY:1,AttributeModifiers:[{UUIDMost:-9105453666818375173L,UUIDLeast:-8417298764003642968L,Amount:0.5409767904538714d,Slot:\"head\",AttributeName:\"generic.armor\",Operation:0,Name:\"armor\"}]}",
+    "0:3": "toughasnails:purified_water_bottle"
   }
 }
